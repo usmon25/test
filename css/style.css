@@ -1,0 +1,167 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+a {
+	color: #fff;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+.container {
+	width: 1140px;
+	margin: 0 auto;
+}
+
+.main {
+	background: radial-gradient(100% 100% at 50% 0%, #504A93 0%, #413E65 100%);
+}
+
+.nav {
+	padding: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.nav-logo {
+	font-weight: bold;
+}
+
+.nav-list {
+	display: flex;
+}
+
+.nav-link {
+	display: block;
+	padding: 10px 20px;
+	margin: 0 5px;
+}
+
+.nav-link:hover {
+	background-color: lightgray;
+}
+
+.pro-link {
+   background-color: #f04037;
+   border-radius: 5px;
+}
+
+.intro {
+	display: flex;
+	align-items: center;
+	height: 100%;
+	padding-left: 100px;
+}
+
+.intro-title {
+	color: #fff;
+	font-size: 60px;
+	width: 400px;
+}
+
+.intro-text {
+	width: 300px;
+	color: rgba(255, 255, 255, 0.7);
+	line-height: 25px;
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+
+img {
+	margin-left: -300px;
+}
+
+.intro-link {
+	font-weight: bold;
+	background-color: red;
+	padding: 15px 20px;
+	margin-bottom: 150px;
+}
+
+.intro-lik {
+	color: gray;
+}
+
+.small-title {
+	font-size: 23px;
+}
+
+svg {
+	margin-bottom: 30px;
+}
+
+.small {
+	display: flex;
+	justify-content: center;
+	padding-top: 100px;
+	padding-bottom: 100px;
+    border: 1px solid #EAE9F2;
+}
+
+.small-text {
+	width: 300px;
+	margin-top: 15px;
+	line-height: 2;
+	color: #696871;
+}
+
+.small-item {
+	margin-left: 50px;
+}
+
+.logos {
+	display: flex;
+	align-items: center;
+	padding-top: 50px;
+}
+
+.types {
+	display: flex;
+	align-items: center;
+	background-color: #F7F7FB;
+	justify-content: space-between;
+	padding-left: 100px;
+}
+
+.types-title {
+	font-size: 50px;
+	width: 500px;
+}
+
+.types-slog {
+	color: #696871;
+	width: 430px;
+	line-height: 1.8;
+	margin-top: 30px;
+}
+
+.types-img {
+	width: 650px;
+	height: 650px;
+}
+
+.ota {
+	display: flex;
+	margin-top: 50px;
+}
+
+.element {
+	margin-top: 5px;
+	margin-left: 5px;
+}
+
+
+.element:nth-child(4) {
+	margin-left: 50px;
+}
+
+svg:nth-child(2) {
+	margin-left: 1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000px;
+}
